@@ -31,7 +31,7 @@ export default function AnalysisResults({ results }) {
         <ScoreCard
           label="ATS Compatibility"
           score={results.atsScore}
-          subtitle={`${results.matchedSkillCount} of ${results.totalJdSkillCount} skills matched`}
+          subtitle="Based on structural parsing and format checks"
           color="emerald"
         />
       </div>
